@@ -106,7 +106,7 @@ For questions or feedback, use the contact form on the website or reach out via:
 
 ## 📄 License
 
-This project was created as a final project assignment.
+This project was created as a travleing.
 
 ---
 
