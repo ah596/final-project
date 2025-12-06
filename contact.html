@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact TravelExplore for personalized travel recommendations and assistance planning your perfect vacation.">
+    <title>Contact Us - TravelExplore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">TravelExplore</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p style="font-size: 1.3rem; max-width: 800px; margin: 0 auto; color: rgba(255, 255, 255, 0.95);">
+                Have questions about your next adventure? We're here to help you plan the perfect trip!
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2 class="section-title">Send Us a Message</h2>
+                <p class="section-subtitle">
+                    Fill out the form below and our travel experts will get back to you within 24 hours
+                </p>
+            </div>
+
+            <!-- Success Message -->
+            <div class="form-success" id="successMessage">
+                ✅ Thank you for contacting us! We'll get back to you soon.
+            </div>
+
+            <!-- Contact Form -->
+            <form id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="name" class="form-label">Full Name *</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Enter your full name"
+                        required>
+                    <span class="form-error" id="nameError">Please enter your name</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address *</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com"
+                        required>
+                    <span class="form-error" id="emailError">Please enter a valid email address</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject *</label>
+                    <input type="text" id="subject" name="subject" class="form-input"
+                        placeholder="What is this regarding?" required>
+                    <span class="form-error" id="subjectError">Please enter a subject</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-label">Message *</label>
+                    <textarea id="message" name="message" class="form-textarea"
+                        placeholder="Tell us about your travel plans or questions..." required></textarea>
+                    <span class="form-error" id="messageError">Please enter your message</span>
+                </div>
+
+                <button type="submit" class="btn btn-gradient" style="width: 100%;">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="section" style="background: linear-gradient(to bottom, #f7fafc 0%, #edf2f7 100%);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Other Ways to Reach Us</h2>
+            </div>
+
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                <div class="about-card" style="text-align: center;">
+                    <div class="about-icon">📧</div>
+                    <h3>Email Us</h3>
+                    <p style="color: var(--text-light);">
+                        <a href="mailto:info@travelexplore.com"
+                            style="color: var(--primary-color); text-decoration: none;">
+                            info@travelexplore.com
+                        </a>
+                    </p>
+                    <p>For general inquiries and support</p>
+                </div>
+
+                <div class="about-card" style="text-align: center;">
+                    <div class="about-icon">📞</div>
+                    <h3>Call Us</h3>
+                    <p style="color: var(--text-light);">
+                        <a href="tel:+1-800-TRAVEL" style="color: var(--primary-color); text-decoration: none;">
+                            +1 (800) TRAVEL-1
+                        </a>
+                    </p>
+                    <p>Monday - Friday, 9AM - 6PM EST</p>
+                </div>
+
+                <div class="about-card" style="text-align: center;">
+                    <div class="about-icon">💬</div>
+                    <h3>Live Chat</h3>
+                    <p style="color: var(--text-light);">
+                        Available 24/7
+                    </p>
+                    <p>Click the chat icon in the bottom right corner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="about-card" style="margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-color);">How do I get personalized recommendations?</h3>
+                    <p>
+                        Simply browse our website and explore different categories like beaches, temples, and countries.
+                        You can also contact us with your preferences, and our team will create a customized travel plan
+                        for you.
+                    </p>
+                </div>
+
+                <div class="about-card" style="margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-color);">Do you help with booking accommodations?</h3>
+                    <p>
+                        While we primarily focus on destination recommendations, we can connect you with trusted travel
+                        partners who can assist with bookings for hotels, flights, and activities.
+                    </p>
+                </div>
+
+                <div class="about-card" style="margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-color);">Is there a cost for using TravelExplore?</h3>
+                    <p>
+                        Browsing our recommendations is completely free! We may offer premium features in the future,
+                        but our core recommendation service will always be available at no cost.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h3 style="color: var(--primary-color);">How quickly will I receive a response?</h3>
+                    <p>
+                        We aim to respond to all inquiries within 24 hours during business days. For urgent matters,
+                        please call our support line or use the live chat feature.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>TravelExplore</h3>
+                <p>Your trusted companion for discovering amazing destinations around the world. We provide personalized
+                    travel recommendations to make your journey unforgettable.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About Us</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                    <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                    <a href="#" class="social-link" aria-label="YouTube">📹</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TravelExplore. All rights reserved. | Designed with ❤️ for travelers</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
